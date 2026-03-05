@@ -1,0 +1,85 @@
+{
+  "restaurant_id": "REST001",
+  "last_updated": "2024-03-05T10:00:00Z",
+  "menu_items": [
+    {
+      "item_id": "pizza_margherita_001",
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with tomato sauce and mozzarella cheese",
+      "category": "pizza",
+      "price": 299,
+      "contribution_margin": 89.7,
+      "margin_percent": 30.0,
+      "popularity_score": 0.85
+    },
+    {
+      "item_id": "pizza_pepperoni_001",
+      "name": "Pepperoni Pizza",
+      "description": "Spicy pepperoni with melted mozzarella on tomato base",
+      "category": "pizza",
+      "price": 399,
+      "contribution_margin": 159.6,
+      "margin_percent": 40.0,
+      "popularity_score": 0.92
+    },
+    {
+      "item_id": "pizza_truffle_001",
+      "name": "Truffle Mushroom Pizza",
+      "description": "Wild mushrooms, truffle oil, mozzarella on wood-fired crust",
+      "category": "pizza",
+      "price": 549,
+      "contribution_margin": 274.5,
+      "margin_percent": 50.0,
+      "popularity_score": 0.35,
+      "hidden_star": true,
+      "upsell_tags": ["premium", "vegetarian"]
+    },
+    {
+      "item_id": "garlic_bread_001",
+      "name": "Cheesy Garlic Bread",
+      "description": "Toasted bread with garlic butter and melted cheese",
+      "category": "sides",
+      "price": 149,
+      "contribution_margin": 104.3,
+      "margin_percent": 70.0,
+      "popularity_score": 0.45,
+      "hidden_star": true
+    },
+    {
+      "item_id": "coke_500ml_001",
+      "name": "Coca-Cola 500ml",
+      "description": "Chilled Coca-Cola",
+      "category": "beverage",
+      "price": 60,
+      "contribution_margin": 12.0,
+      "margin_percent": 20.0,
+      "popularity_score": 0.95,
+      "risk_flag": true
+    },
+    {
+      "item_id": "tiramisu_001",
+      "name": "Classic Tiramisu",
+      "description": "Italian dessert with mascarpone and espresso",
+      "category": "dessert",
+      "price": 249,
+      "contribution_margin": 174.3,
+      "margin_percent": 70.0,
+      "popularity_score": 0.40,
+      "hidden_star": true
+    }
+  ],
+  "combo_rules": [
+    {
+      "trigger_item_id": "pizza_margherita_001",
+      "recommendation_id": "garlic_bread_001",
+      "lift_margin": 45.0,
+      "confidence_score": 0.88
+    },
+    {
+      "trigger_item_id": "pizza_pepperoni_001",
+      "recommendation_id": "coke_500ml_001",
+      "lift_margin": 8.0,
+      "confidence_score": 0.75
+    }
+  ]
+}
