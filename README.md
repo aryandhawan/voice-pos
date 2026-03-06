@@ -1,4 +1,4 @@
-🎙️ Elite Voice POS: Intelligence-Driven Dining
+# 🎙️ Elite Voice POS: Intelligence-Driven Dining
 
 "Turning Every Order into a High-Margin Transaction."
 
@@ -8,7 +8,7 @@ Elite Voice POS is a next-generation, AI-powered Point of Sale system designed t
 
 The system is split into two specialized engines that communicate via a secure real-time sync.
 
-🧠 Module 1: The ML Revenue Engine
+### 🧠 Module 1: The ML Revenue Engine
 
 While traditional analytics focus on volume, our engine focuses on Profitability Velocity.
 
@@ -18,7 +18,7 @@ Hidden Star Detection: Identifies items with high margins but low relative visib
 
 Predictive Affinity: Cross-references historical sales to find high-probability pairings (e.g., Butter Chicken → Garlic Naan).
 
-🗣️ Module 2: Voice Ordering Copilot
+### 🗣️ Module 2: Voice Ordering Copilot
 
 A high-performance interface that turns natural language into structured data.
 
@@ -28,7 +28,7 @@ Semantic Intent Mapping: Uses a Vector Database (ChromaDB) and Sentence Transfor
 
 Real-time Intelligence Sync: Receives "Push Notifications" from Module 1 to suggest upsells instantly on the server's dashboard.
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Backend (Python/FastAPI)
 
@@ -48,7 +48,7 @@ Tailwind CSS: Modern, responsive UI/UX.
 
 Lucide React: Premium iconography.
 
-📈 The Business Case: "Revenue Alpha"
+### 📈 The Business Case: "Revenue Alpha"
 
 The primary goal of Elite Voice POS is to generate Revenue Alpha—extra profit that would have been lost in a traditional manual POS.
 
@@ -58,7 +58,7 @@ Speed of Service: Reduces order entry time by 40%, allowing for faster table tur
 
 Data-Driven Menu: Automatically promotes items with high contribution margins.
 
-🚦 Getting Started
+## ## 🚦 Getting Started
 
 Prerequisites
 
@@ -77,9 +77,17 @@ cd voice-pos
 Setup Backend
 
 cd core/backend-pos
+
+
 python -m venv venv
+
+
 source venv/bin/activate  # Or .\venv\Scripts\activate on Windows
+
+
 pip install -r requirements.txt
+
+
 uvicorn main:app --reload
 
 
